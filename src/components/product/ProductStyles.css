@@ -1,0 +1,71 @@
+.product{
+    position: relative;
+    width: 99%;
+    height: 100vh;
+}
+.product_content{
+    width: 100%;
+    height: 92%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+.overview{
+    width: 550px;
+    flex-grow: 1;
+}
+.view_content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between ;
+    padding: 1rem;
+}
+.firstcontent{
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+    border-top-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    box-shadow: 0 8px 5px 0 rgba(98, 99, 106, 0.693);
+    border: .1px solid rgb(65, 61, 61);
+    border-top-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+
+    background: url('../../assets/foodthree.jpg') no-repeat center center/cover;
+
+}
+
+.firstcontentword{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    width: 100%;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #00000067;
+    border-bottom-right-radius: 1.5rem;
+
+    padding: .7rem;
+}
+.secondcontentpics{
+    width: 100%;
+    height: 70%;
+    border-top-left-radius: 1.5rem;
+    background: url('../../assets/foodthree.jpg') no-repeat center center/cover;
+}
+.daily_product{
+    flex-grow: 1;
+    background-color: yellow;
+    width: 450px;
+
+}
+.trend{
+    flex-grow: 1;
+    background-color: green;
+    width: 350px;
+
+}
